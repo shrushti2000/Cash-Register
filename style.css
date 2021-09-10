@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley&family=Roboto+Slab:wght@500&display=swap");
+* {
+  font-size: 62.5%;
+
+  font-family: "Roboto Slab", serif;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    #3d4750,
+    #44a06f,
+    #8cc7ab,
+    #e6d8b9,
+    #fbfbfb
+  );
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  font-size: 4rem;
+}
+.description {
+  font-size: 3rem;
+}
+input,
+label,
+caption {
+  width: 70%;
+  margin: 0 auto;
+  height: 3.5rem;
+  font-size: 3rem;
+}
+label {
+  margin: 2rem;
+}
+#check-btn {
+  width: 30%;
+  margin: 0 auto;
+  height: 4rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 3rem;
+  box-shadow: 5px 10px 8px #888888;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 0 auto;
+}
+table,
+tr,
+td,
+th {
+  width: 50%;
+  margin: 0 auto;
+  height: 3rem;
+  margin-top: 1rem;
+  font-size: 3rem;
+  padding: 0.1rem;
+  border: 1px solid grey;
+  font-family: "Besley", serif;
+}
+.footer-heading,
+.socialmedia {
+  font-size: 1.5rem;
+}
+i {
+  color: black;
+}
+@media screen and (max-width: 480px) {
+  * {
+    font-size: 37.5%;
+  }
+  body {
+    background: #9fd8b9;
+  }
+}
